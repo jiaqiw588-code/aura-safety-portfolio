@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title id="title">AURA 开放光环 A 标志</title>
+  <defs>
+    <linearGradient id="aura-ring" x1="22" y1="30" x2="126" y2="132" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE384"/>
+      <stop offset="0.58" stop-color="#FFC928"/>
+      <stop offset="0.86" stop-color="#E8A960"/>
+      <stop offset="1" stop-color="#A77AEF"/>
+    </linearGradient>
+    <filter id="aura-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path d="M126 42A59 59 0 1 0 119 126" fill="none" stroke="url(#aura-ring)" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="127" cy="42" r="8" fill="#7452FF"/>
+  <path d="M49 114 77 47c1.8-4.3 7.4-4.4 9.2-.1L113 114" fill="none" stroke="#FFC928" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M62 88c12-7 25-7 38 0" fill="none" stroke="#FFE9A3" stroke-width="4" stroke-linecap="round" filter="url(#aura-glow)"/>
+  <circle cx="62" cy="88" r="5.5" fill="#FFF6DA"/>
+  <circle cx="81" cy="83.5" r="5.5" fill="#FFF6DA"/>
+  <circle cx="100" cy="88" r="5.5" fill="#FFF6DA"/>
+</svg>

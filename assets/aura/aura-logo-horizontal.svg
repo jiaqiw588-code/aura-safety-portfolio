@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" role="img" aria-labelledby="title">
+  <title id="title">AURA 她域主标志</title>
+  <defs>
+    <linearGradient id="aura-ring" x1="18" y1="26" x2="132" y2="136" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE384"/>
+      <stop offset="0.58" stop-color="#FFC928"/>
+      <stop offset="0.86" stop-color="#E8A960"/>
+      <stop offset="1" stop-color="#A77AEF"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(3 3) scale(.94)">
+    <path d="M126 42A59 59 0 1 0 119 126" fill="none" stroke="url(#aura-ring)" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="127" cy="42" r="8" fill="#7452FF"/>
+    <path d="M49 114 77 47c1.8-4.3 7.4-4.4 9.2-.1L113 114" fill="none" stroke="#FFC928" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M62 88c12-7 25-7 38 0" fill="none" stroke="#FFE9A3" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="62" cy="88" r="5.5" fill="#FFF6DA"/>
+    <circle cx="81" cy="83.5" r="5.5" fill="#FFF6DA"/>
+    <circle cx="100" cy="88" r="5.5" fill="#FFF6DA"/>
+  </g>
+  <text x="176" y="91" fill="#FFC928" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" letter-spacing="14">AURA</text>
+  <text x="181" y="132" fill="#7452FF" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="29" font-weight="800" letter-spacing="11">她域</text>
+</svg>
