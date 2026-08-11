@@ -1,0 +1,64 @@
+:root {
+  --gold: #ffc928;
+  --purple: #7452ff;
+}
+
+.brand-mark-image {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  flex: none;
+  display: block;
+  filter: drop-shadow(0 0 8px rgba(255, 201, 40, 0.16));
+}
+
+.nav-brand > span {
+  display: grid;
+  gap: 3px;
+}
+
+.nav-brand > span > b {
+  color: #ffc928;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.nav-brand > span > small {
+  color: #7452ff;
+}
+
+.hero-brand .brand-mark-image {
+  width: 42px;
+  height: 42px;
+}
+
+.hero h1 {
+  color: #ffc928;
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0.015em;
+}
+
+.hero h1 em {
+  color: #7452ff;
+}
+
+.street-device .brand-mark-image {
+  z-index: 2;
+  width: 64px;
+  height: 64px;
+  margin-top: 42px;
+  position: relative;
+}
+
+@media (max-width: 760px) {
+  .brand-mark-image {
+    width: 27px;
+    height: 27px;
+  }
+
+  .hero-brand .brand-mark-image {
+    width: 36px;
+    height: 36px;
+  }
+}
